@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="/static/icon.png">
+        <title>Pendaftaran</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <link rel="icon" href="/img/safe_strongbox_money_icon_185919.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+       
+        <div class="header">
+            <h1 align=center>Pendaftaran Asisten Praktikum</h1>
+        </div>
+        <div class="container">
+            
+            <form id="customer" class="input" method="GET" action="main.html">
+                <input type="text" class="field" name="nama" placeholder="Nama" required>
+                <br><br>
+                <input type="text" class="field" name="NIM" placeholder="NIM" required>
+                <br><br>
+                <input type="text" class="field" name="telp" placeholder="No. Telepon" required>
+                <br><br>
+                <label for="tgl">Tanggal Lahir: </label>
+                <input type="date" class="field" id="tgl" name="tgllahir" placeholder="Tanggal Lahir" required>
+                <br><br>
+                <select class="opt" name="matkul"  required >
+                    <option value="" selected disabled hidden>Pilih Mata Kuliah</option>
+                    <option>Algoritma Pemrograman</option>
+                    <option>Algoritma dan Struktur Data</option>
+                    <option>Jaringan Komputer</option>
+                    <option>Pemrograman Web</option>
+                </select>
+                <br><br>
+                <input type="submit" class="btn" value="SUBMIT"></button>
+            </form>                   
+        </div>  
+    </body>
+</html>
